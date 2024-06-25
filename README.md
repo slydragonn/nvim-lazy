@@ -1,6 +1,6 @@
 # Neovim Setup with Lazy.vim
 
-![neovim setup](./images/neovim.png)
+![neovim setup](./images/lazy.jpg)
 
 ## 🚀 Installation
 
@@ -16,10 +16,9 @@ git clone https://github.com/slydragonn/nvim-lazy.git
 
 - **Linux**: `~/.config/`
 
-<!--## 📚 Articles
+## 📚 Articles
 
-- [How to Set up Neovim with Lua and Lazy.vim]()
--->
+- [Ultimate Neovim Setup Guide: lazy.nvim Plugin Manager](https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7)
 
 ## ⚙ Requirements
 
@@ -29,7 +28,6 @@ git clone https://github.com/slydragonn/nvim-lazy.git
 - [Lazy.vim](https://github.com/folke/lazy.nvim)
 - A C compiler in your path and libstdc++ installed: [Windows support](https://github.com/nvim-treesitter/nvim-treesitter/wiki/Windows-support)
 - [Git](https://git-scm.com/downloads)
-
 
 ## 📚 Project Structure
 
