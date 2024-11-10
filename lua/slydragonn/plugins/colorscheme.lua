@@ -1,8 +1,14 @@
 return {
-	"tiagovla/tokyodark.nvim",
+	"EdenEast/nightfox.nvim",
 	lazy = false,
 	priority = 1000,
 	config = function()
-		vim.cmd("colorscheme tokyodark")
+		require("nightfox").setup({
+			options = {
+				transparent = true,
+			},
+		})
+
+		vim.cmd("colorscheme terafox")
 	end,
 }
