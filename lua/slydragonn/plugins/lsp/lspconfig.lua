@@ -74,6 +74,18 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["gopls"] = function()
+				nvim_lsp["gopls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
+			["golangci_lint_ls"] = function()
+				nvim_lsp["golangci_lint_ls"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
 		})
 	end,
 }
