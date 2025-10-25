@@ -7,7 +7,7 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/slydragonn-solutions/nvim-lazy.git
+git clone https://github.com/slydragonn/nvim-lazy.git
 ```
 
 2. Move nvim directory to:
